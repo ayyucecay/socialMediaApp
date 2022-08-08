@@ -1,0 +1,90 @@
+.button-like {
+  border-radius: 7px;
+  border: 1px solid rgb(50, 150, 117);
+}
+
+.like-p{
+  top: 0;
+  margin: auto;
+  color: rgb(50, 150, 117);
+}
+
+.like-button {
+  background-color: transparent;
+  color:rgb(50, 150, 117);
+  border: none;
+  border-right: 1px solid rgb(50, 150, 117);
+}
+
+.like-button-fill {
+  background-color: rgb(50, 150, 117);
+  color: white;
+  border: none;
+  border-right: 1px solid rgb(50, 150, 117);
+}
+
+.button-comment {
+  border-radius: 7px;
+  border: 1px solid rgb(40, 180, 180);
+}
+
+.comment-p{
+  top: 0;
+  margin: auto;
+  color:rgb(40, 180, 180);
+}
+
+.comment-button {
+  background-color: transparent;
+  color:rgb(40, 180, 180);
+  border: none;
+  border-right: 1px solid rgb(40, 180, 180);
+}
+
+.comment-delete {
+  background-color: rgb(178, 22, 22);
+  color:white;
+  border: rgb(178, 22, 22);
+  border-right: 1px solid rgb(178, 22, 22);
+}
+.button-delete p{
+  margin-top: revert;
+  color:rgb(40, 180, 180);
+}
+
+.btn:hover {
+  background-color: rgb(50, 150, 117);
+  border-color: rgb(50, 150, 117);
+}
+.btn:focus{
+  background-color: rgb(50, 150, 117);
+  border-color: rgb(50, 150, 117);
+  box-shadow: none;
+}
+.btn:active:focus {
+   box-shadow: none;
+}
+
+.like-button:hover {
+  background-color: white;
+  color: rgb(50, 150, 117);
+  border-color: rgb(50, 150, 117);
+}
+.like-button:focus {
+  background-color: white;
+  color: rgb(50, 150, 117);
+  border-color: rgb(50, 150, 117);
+}
+
+.comment-delete:focus {
+  background-color: rgb(178, 22, 22);
+  color:white;
+  border: rgb(178, 22, 22);
+  border-right: 1px solid rgb(178, 22, 22);
+}
+.comment-delete:hover {
+  background-color: white;
+  color:rgb(178, 22, 22);
+  border: rgb(178, 22, 22);
+  border: 1px solid rgb(178, 22, 22);
+}
